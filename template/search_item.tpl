@@ -1,0 +1,1 @@
+<li class="list-group-item"><a href="%link%">%article_title%</a></li>

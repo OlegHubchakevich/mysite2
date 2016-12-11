@@ -1,0 +1,388 @@
+@font-face {
+    font-family: Helvetica;
+    src: url("../fonts/Helvetica.woff");
+}
+@font-face {
+    font-family: Helvetica-Bold;
+    src: url("../fonts/Helvetica-Bold.woff");
+}
+body {
+    background: #252424;
+    color: #000;
+    min-width: 320px;
+    font-family: Helvetica;
+    font-size: 14px;
+}
+/*============================header===================*/
+.logo h2 {
+    font-size: 300%;
+    color: #fff;
+}
+.logo p {
+    margin-left: 5px;
+    color: #fff;
+}
+nav {
+    background: url("../images/header_bg.png") no-repeat center center;
+    background-size: cover;
+    height: 108px;
+    z-index: 100;
+}
+.navbar-default {
+    background-color: #252424;
+    border: none;
+    border-radius: 0px;
+}
+.collapse.navbar-collapse {
+    background: url("../images/navigator_bg.png") no-repeat center center;
+    position: absolute;
+    top: 60px;
+    right: 100px;
+    width: 461px;
+}
+.nav.navbar-nav.navbar-right > li > a {
+    color: #fff;
+}
+.nav.navbar-nav.navbar-right > li > a:hover {
+    color: #269abc;
+}
+/*===============articles====================*/
+.article {
+    background: #fff;
+    margin-bottom: 10px;
+}
+.article_img {
+    background: #e6e7e9;
+    float: left;
+    padding: 5px;
+    margin-top: 23px;
+}
+.article_text {
+    margin-left: 5px;
+}
+.article_title h3 {
+    color: #2387c5;
+}
+.article .col-md-3 {
+    padding-left: 0;
+}
+.article .comment {
+    background: url("../images/comment_bg.png") repeat-x center center;
+    padding: 7px;
+    position: relative;
+    bottom: 5px;
+}
+.article .comment > p {
+    position:relative;
+    top: 10px;
+}
+.article .comment > p:first-child {
+    float: left;
+    color: #fff;
+}
+.article .comment > p:last-child {
+    text-align: right;
+    top: 5px;
+}
+.article .comment input {
+    background: url("../images/button_bg.png") repeat-x center center;
+    border: none;
+    color: #fff;
+    transition: background 0.5s;
+}
+.article .comment input:hover {
+    background: url("../images/button_hover.png") repeat-x center center;
+}
+.article .article_main_text {
+    font-size: 12px;
+}
+.article .date {
+    background: #343434;
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+}
+ul {
+    list-style: none;
+}
+.pagination > ul > li {
+    float: left;
+    padding: 0 10px;
+}
+.pagination > ul > li > a {
+    color: #fff;
+    padding: 5px;
+}
+.pagination > ul > li > a:hover, .pagination > ul > li > a.active {
+    background: url("../images/pagination_active_bg.png") no-repeat center center;
+    text-decoration: none;
+}
+/*=============left block====================*/
+.content_article .col-md-3.col-md-pull-9 {
+    background: #bdd2f0;
+    border: 2px solid #89a9b4;
+    padding-right: 30px;
+    height: 1020px;
+}
+.content_article .col-md-3 h2 {
+    font-size: 150%;
+}
+.search, .categories, .archives {
+    margin-bottom: 30px;
+}
+.search .form-inline input[name="search"] {
+    width: 90%;
+}
+.search h2, .categories h2, .archives h2, .contacts h2 {
+    float: left;
+}
+.search img {
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+.search .head, .categories .head, .archives .head, .contacts .head {
+    border-bottom: 1px dotted #343434;
+    margin-bottom: 10px;
+}
+.search button {
+    background: #6c9a13;
+    color: #fff;
+    float: right;
+    position: relative;
+    bottom: 34px;
+    left: 9px;
+    transition: background 0.5s;
+}
+.search button:hover {
+    background: #5cb85c;
+}
+.authorization button {
+    background: #6c9a13;
+    color: #fff;
+    transition: background 0.5s;
+}
+.authorization button:hover {
+    background: #5cb85c;
+}
+.authorization a {
+    background: #985f0d;
+    color: #fff;
+    float: right;
+    display: block;
+    border: 1px solid red;
+    padding: 5px;
+    position: relative;
+    bottom: 33px;
+    transition: background 0.5s;
+}
+.authorization a:hover {
+    background: orange;
+}
+.categories img {
+    position: relative;
+    top: 20px;
+    left: 55px;
+}
+.archives img {
+    position: relative;
+    top: 20px;
+    left: 72px;
+}
+.categories ul, .archives ul {
+    padding-left: 0;
+}
+.categories ul li:first-child, .archives ul li:first-child {
+    padding-top: 0px;
+}
+.categories ul li, .archives ul li {
+    border-bottom: 1px dotted #343434;
+    padding: 10px 10px;
+}
+.categories ul li a, .archives ul li a{
+    color: #000;
+    display: block;
+}
+.contacts img {
+    position: relative;
+    top: 20px;
+    left: 123px;
+}
+.contacts ul {
+    padding-left: 0;
+}
+.contacts ul li {
+    color: #6c9a13;
+    padding: 5px 0px;
+}
+.form-horizontal .col-sm-10{
+    left: 17px;
+}
+/*=============footer========================*/
+.footer-copyright {
+    background: url("../images/footer_bg.png") repeat-x;
+    color: #fff;
+    padding: 25px 0;
+}
+/*===================ARTICLE HTML===============*/
+.article_img2 {
+    background: #252424;
+    padding-bottom: 20px;
+}
+.article .col-md-12.im {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.article_text2 .article_title2 h1 {
+    color: #2387c5;
+}
+/*=============REGISTRATION HTML=============*/
+.registration h1, .search_results h1 {
+    color: #2387c5;
+    margin-bottom: 30px;
+}
+.registration label {
+    color: #2387c5;
+}
+.registration button {
+    background: #5cb85c;
+    color: #fff;
+    transition: background 0.5s;
+}
+.registration button:hover {
+    background: #985f0d;
+    color: #fff;
+}
+/*=============SEARCH HTML===================*/
+.search_results .list-group-item {
+    border:none;
+    background: #252424;
+}
+/*=============media query===================*/
+@media only screen and (max-width : 1200px) {
+    .article_text {
+        padding-left: 35px;
+    }
+    .content_article .col-md-3.col-md-pull-9 {
+        height: 1300px;
+    }
+    .search img {
+        left: 50px;
+    }
+    .categories img {
+       left: 5px;
+    }
+    .archives img {
+       left: 25px; 
+    }
+    .contacts img {
+       left: 76px;
+    }
+}
+@media only screen and (max-width : 992px) {
+    .collapse.navbar-collapse {
+        right: 50px;
+    }
+    .article_text {
+        padding-left: 206px;
+    }
+    .search .form-inline input[name="search"] {
+        width: 200%;
+    }
+    .search button {
+        float: none;
+        top: 0px;
+        left: 200px;
+    }
+    .authorization a {
+        right: 400px;
+    }
+}
+@media only screen and (max-width : 768px) {
+    
+}
+@media only screen and (max-width : 767px) {
+    .logo {
+        position: absolute;
+        bottom: 1px;
+        width: 50%;
+    }
+    .logo h2 {
+        font-size: 220%;
+    }
+    .logo p {
+        margin-right: 5px;
+    }
+    .collapse.navbar-collapse {
+        background: #258fcd;
+        width: 100%;
+        right: 15px;
+        top: 80px;
+    }
+    .top_menu .navbar-default .navbar-nav > li > a {
+        transition: background 0.5s;
+    }
+    .top_menu .navbar-default .navbar-nav > li > a:hover {
+        background: #eee;
+    }
+    .navbar-default {
+        height: 80px;
+    }
+    .content_article .col-md-3.col-md-pull-9 {
+        height: 100%;
+    }
+    .search .form-inline input[name="search"] {
+        width: 100%;
+    }
+    .search button {
+        left: 0;
+    }
+    .authorization a {
+        top: 6px;
+        left: 0;
+        float: left;
+    }
+    .registration .form-control {
+        width: 97%;
+    }
+}
+@media only screen and (max-width : 765px) {
+    .article .col-md-9 {
+        padding-left: 0px;
+    }
+    .article_text {
+        padding-left: 0px;
+    }
+    .article_text .article_title {
+        padding-left: 206px;
+    }
+    .article_text .article_main_text {
+        margin-left: 0;
+    }
+    .article_img {
+        margin-right: 5px;
+    }
+    .article .date {
+        margin-left: 15px;
+    }
+    
+}
+@media only screen and (max-width : 400px) {
+    .article img {
+        width: 190px;
+    }
+    .article .date {
+        margin-left: 3px;
+    }
+}
+@media only screen and (max-width : 325px) {
+    .logo h2 {
+        font-size: 150%;
+    }
+    .article h3 {
+        font-size: 100%;
+    }
+    .article .date {
+        font-size: 70%;
+    }
+}
